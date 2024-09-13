@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <h1>Ayesha Fahad</h1>
+                <h2>Front-End Web & App Developer</h2>
+                <p>1 years of experience in HTML, CSS, JavaScript and TypeScript</p>
+                <p>Email: ayeshafahad661@gmail.com | Phone: 0900-78601</p>
+            </div>
+        </header>
+
+        <section class="resume-section">
+            <button class="toggle-btn" onclick="toggleSection('personal-info')">Personal Information</button>
+            <div id="personal-info" class="content">
+                <p><strong>Address:</strong> Garden , karachi</p>
+                <p><strong>LinkedIn:</strong> https://www.linkedin.com/in/ayesha-fahad-886690112//</p>
+                <p><strong>GitHub:</strong> https://github.com/ayeshafahad2</p>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <button class="toggle-btn" onclick="toggleSection('education')">Education</button>
+            <div id="education" class="content">
+                <p><strong>Diploma in Islamic Studies(Dubai (2012-2014))</strong></p>
+                <p>Pursing Artificial intelligence studies in Karachi </p>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <button class="toggle-btn" onclick="toggleSection('skills')">Skills</button>
+            <div id="skills" class="content">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Next.js</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="resume-section">
+            <button class="toggle-btn" onclick="toggleSection('work-experience')">Work Experience</button>
+            <div id="work-experience" class="content">
+                <p><strong>Front-End Developer</strong></p>
+                <p>Sublimes International technology</p>
+                <ul>
+                    <li>Developed responsive websites using HTML, CSS, and JavaScript</li>
+                    <li>Collaborated with designers to create UI components</li>
+                    <li>Optimized website performance and improved load times</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
